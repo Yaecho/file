@@ -1,0 +1,24 @@
+{
+    "name": "yaecho/file",
+    "description": "write & read files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaecho",
+            "email": "root@yaecho.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaecho\\" : "src/"
+        }
+    }
+}
